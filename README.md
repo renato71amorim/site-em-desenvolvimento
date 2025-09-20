@@ -10,6 +10,22 @@ Este projeto oferece uma página simples e funcional que pode ser usada como pla
 
 Este projeto permite o envio de mensagens via WhatsApp utilizando a API da [Comunite](https://comunite.com.br). A integração é feita por meio de requisições HTTP com autenticação via token.
 
+## ✉️ Integração com Envio de E-mails
+
+Este projeto também permite o envio de mensagens por e-mail utilizando a biblioteca [Nodemailer](https://nodemailer.com/) em ambiente Node.js. Ideal para capturar contatos e enviar confirmações ou notificações automáticas.
+
+### 🔐 Configuração do `.env`
+
+Adicione as seguintes variáveis ao seu arquivo `.env`:
+
+```env
+EMAIL_HOST=smtp.seudominio.com
+EMAIL_PORT=587
+EMAIL_USER=seu_email@seudominio.com
+EMAIL_PASS=sua_senha_segura
+EMAIL_FROM="Seu Nome <seu_email@seudominio.com>"
+
+
 ### 🔐 Configuração do `.env`
 
 Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
