@@ -6,6 +6,19 @@ Página de manutenção para sites em construção, com foco em **captura de con
 
 Este projeto oferece uma página simples e funcional que pode ser usada como placeholder em sites em desenvolvimento. Além de informar o visitante, permite captar leads e redirecionar para canais de contato.
 
+## 📲 Integração com API de Envio de Mensagens
+
+Este projeto permite o envio de mensagens via WhatsApp utilizando a API da [Comunite](https://comunite.com.br). A integração é feita por meio de requisições HTTP com autenticação via token.
+
+### 🔐 Configuração do `.env`
+
+Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+
+```env
+API_URL=https://comunite.com.br:443/backend/api/messages/send
+API_TOKEN=seu_token_aqui
+
+
 ## ⚙️ Tecnologias Utilizadas
 
 - **HTML5**: Estrutura da página
